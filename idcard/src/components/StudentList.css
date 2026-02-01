@@ -1,0 +1,50 @@
+.student-list-container {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* FILTER BAR */
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-bar input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 260px;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ✅ THIS IS THE IMPORTANT PART */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* fallback message */
+.no-results {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
